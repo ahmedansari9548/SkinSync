@@ -26,6 +26,7 @@ Ensure the dataset is downloaded and placed in the `data/` folder.
 ## Tech Stack
 - **Python**
 - **YOLO** (Object Detection)
+- **YOLOv8-xs Backbone** (Ultralytics YOLOv8 model for small-scale detection tasks)
 - **OpenCV** (Image Processing)
 - **Pandas** (Data Analysis)
 - **Matplotlib** (Visualization)
@@ -66,8 +67,9 @@ jupyter notebook acne-Severity_YOLO.ipynb
    - Load and clean the input images.
    - Resize and normalize the images for YOLO compatibility.
 2. **Model Training**:
-   - Train the YOLOv8 model on the provided dataset.
+   - Train the YOLOv8-xs model on the provided dataset.
    - Monitor training loss (Overall Loss, Box Loss, and Class Loss) and validation loss.
+   - Update model weights iteratively to minimize loss and improve accuracy.
 3. **Model Inference**:
    - Run YOLO inference to detect acne spots on facial images.
    - Visualize the results with bounding boxes.
@@ -81,10 +83,12 @@ jupyter notebook acne-Severity_YOLO.ipynb
 - **Visual Outputs**:
    - Detected acne regions are highlighted with bounding boxes.
    - Model performance loss graphs:
- ## Before
-(static/7fdb1bba-36b1-4788-92a9-c7f23e16ad84.png)
+
+## Before
+![Before](static/7fdb1bba-36b1-4788-92a9-c7f23e16ad84.png)
+
 ## After
-(static/189b1528-e54b-4f61-9f5f-1b3b1b0e16e6.png)
+![After](static/189b1528-e54b-4f61-9f5f-1b3b1b0e16e6.png)
 
 **Loss Metrics:**
 - **Overall Loss**: Monitors the overall convergence of the model.
@@ -99,13 +103,13 @@ jupyter notebook acne-Severity_YOLO.ipynb
 ---
 
 ## Evaluation Matrix
-| Metric          | Value        |
-|-----------------|-------------|
-| **Train Loss**  | 6.0          |
-| **Validation Loss** | 7.0      |
-| **Box Loss**    | 4.0          |
-| **Class Loss**  | 2.5          |
-| **Detection Accuracy** | 92%  |
+| Metric                | Value        |
+|-----------------------|-------------|
+| **Train Loss**        | 6.0          |
+| **Validation Loss**   | 7.0          |
+| **Box Loss**          | 4.0          |
+| **Class Loss**        | 2.5          |
+| **Detection Accuracy**| 92%          |
 
 ---
 
@@ -118,8 +122,3 @@ Contributions are welcome! Submit a pull request or open an issue for improvemen
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-
-## Contact
-For any questions or feedback:
-- **Ahmed Ansari**: [ahmedansari9548@gmail.com]
-- **GitHub**: [https://github.com/ahmedansari9548/SkinSync/tClassification/Yolo_v8_Acne_Detection]

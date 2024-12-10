@@ -81,6 +81,10 @@ jupyter notebook acne-Severity_YOLO.ipynb
 - **Visual Outputs**:
    - Detected acne regions are highlighted with bounding boxes.
    - Model performance loss graphs:
+ ## Before
+(static/7fdb1bba-36b1-4788-92a9-c7f23e16ad84.png)
+## After
+(static/189b1528-e54b-4f61-9f5f-1b3b1b0e16e6.png)
 
 **Loss Metrics:**
 - **Overall Loss**: Monitors the overall convergence of the model.
@@ -88,7 +92,7 @@ jupyter notebook acne-Severity_YOLO.ipynb
 - **Class Loss**: Tracks classification error for detected acne spots.
 
 ### Loss Curves:
-![Loss Graphs](images/06d83630-bf1d-4f23-ac7a-c5c7cf0c18b4.png)
+![Loss Graphs](static/06d83630-bf1d-4f23-ac7a-c5c7cf0c18b4.png)
 
 - **Severity Score**: A quantitative measure of acne severity.
 

@@ -73,7 +73,7 @@ The notebook provides:
 - **Severity Score** indicating the extent of acne.
 
 Example output:
-![Sample Output](images/sample_output.png)
+![Sample Output](704bec8f-5c03-4a69-8403-95fd946b6471.png)
 
 ---
 

@@ -42,7 +42,7 @@ pip install opencv-python dlib numpy matplotlib
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/acne-detection.git
+git clone https://https://github.com/ahmedansari9548/SkinSync/Classification/AcneSeverity.git
 cd acne-detection
 ```
 
@@ -86,8 +86,3 @@ Contributions are welcome! Feel free to submit a pull request or open an issue f
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-
-## Contact
-For any questions or feedback:
-- **Your Name**: [your.email@example.com]
-- **GitHub**: [https://github.com/yourusername]

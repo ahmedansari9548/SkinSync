@@ -96,7 +96,7 @@ jupyter notebook acne-Severity_YOLO.ipynb
 - **Class Loss**: Tracks classification error for detected acne spots.
 
 ### Loss Curves:
-![Loss Graphs](static/06d83630-bf1d-4f23-ac7a-c5c7cf0c18b4.png)
+![Loss Graphs](static/e7c712d5-2565-4f15-a7a8-17962a9e7305.png)
 
 - **Severity Score**: A quantitative measure of acne severity.
 

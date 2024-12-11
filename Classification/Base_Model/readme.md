@@ -70,7 +70,7 @@ The confusion matrix highlights the classification performance across all classe
 ### 2. Training and Validation Loss Graph
 The training and validation loss curves demonstrate how the model converges over epochs:
 
-![Loss Graph](a7c192c6-ffb9-488e-b33b-420db2862e7a)
+![Loss Graph](a7c192c6-ffb9-488e-b33b-420db2862e7a.png)
 
 
 ---

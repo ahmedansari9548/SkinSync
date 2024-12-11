@@ -65,17 +65,13 @@ The following visualizations are provided to evaluate the model's performance:
 ### 1. Confusion Matrix
 The confusion matrix highlights the classification performance across all classes:
 
-![Confusion Matrix](notebook_images/output_image_1.png)
+![Confusion Matrix](8f51188a-842c-465a-a36e-01f368f1cb4c.png)
 
 ### 2. Training and Validation Loss Graph
 The training and validation loss curves demonstrate how the model converges over epochs:
 
-![Loss Graph](notebook_images/output_image_2.png)
+![Loss Graph](a7c192c6-ffb9-488e-b33b-420db2862e7a)
 
-### 3. Accuracy Plot
-The accuracy graph shows the training and validation performance over time:
-
-![Accuracy Graph](notebook_images/output_image_3.png)
 
 ---
 

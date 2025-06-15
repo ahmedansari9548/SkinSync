@@ -1,0 +1,15 @@
+{
+    "labels": [
+      "Acne",
+      "Open Pores"
+    ],
+    "series": [
+      {
+        "values": [
+          0.4169294834136963,
+          0.40848061442375183
+        ],
+        "text": "Predicted Confidence"
+      }
+    ]
+  }
